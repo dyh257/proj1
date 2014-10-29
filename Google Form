@@ -1,0 +1,3 @@
+Google Form
+1. The error occurs because the Pokemon model hasn't been created yet
+2. Random Pokemon appear because the controller randomly loads a Pokemon whose trainer_id is null. All the Pokemon that appear have the common factor of having a trainer_id as null.
