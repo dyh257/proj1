@@ -1,3 +1,8 @@
 Google Form
-1. The error occurs because the Pokemon model hasn't been created yet
-2. Random Pokemon appear because the controller randomly loads a Pokemon whose trainer_id is null. All the Pokemon that appear have the common factor of having a trainer_id as null.
+0. The error occurs because the Pokemon model hasn't been created yet
+1. Random Pokemon appear because the controller randomly loads a Pokemon whose trainer_id is null. All the Pokemon that appear have the common factor of having a trainer_id as null.
+2. It creates a button that leads to the capture method within the pokemon_controller.
+2b. It works because the path just searches for the same sequence so as long as the asdf_path is the same as patch 'asdf', then the code should work.
+3. Larry
+4.I passed in trainer_path(current_trainer.id). The path needed the current trainers id to know which profile to show.
+5.
